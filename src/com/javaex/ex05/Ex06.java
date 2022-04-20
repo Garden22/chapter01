@@ -19,8 +19,8 @@ public class Ex06 {
 			arrB[i] = arrA[i];
 		}
 		
-		//B 배열 변경
-		arrB[1] = 100;
+		//A 배열 값 변경(A의 값만 변경)
+		arrA[1] = 100; 
 		
 		//배열A 출력
 		System.out.println("arrA[]");
